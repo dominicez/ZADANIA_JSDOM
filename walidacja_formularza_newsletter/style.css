@@ -1,0 +1,38 @@
+body {
+    background-color: sandybrown;
+}
+
+h1 {
+    color: black;
+}
+
+form#newsletter-form {
+    background-color: khaki;
+    font-size: 16px;
+    color: #000;
+    padding: 30px;
+    width: 50%;
+}
+
+input, label {
+    display: inline-block;
+}
+
+input[type='text'] {
+    height: 20px;
+    width: 100%;
+}
+
+button[type='submit'] {
+    background-color: brown;
+    text-transform: uppercase;
+    border: 0;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button[type='submit']:hover {
+    background-color: lightcoral;
+}
